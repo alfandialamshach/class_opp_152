@@ -11,6 +11,7 @@ public:
         cout << "Nama= " << nama;
     }
 };
+
 class Matakuliah {
 private:
     int sks;
@@ -20,20 +21,32 @@ public:
     void InputMK() {
         cout << "\nMasukkan jumlah SKS= ";
         cin >> sks;
-        out << "\nMasukkan jumlah Kode MK= ";
+        cout << "\nMasukkan jumlah Kode MK= ";
         cin >> kode;
-        out << "\nMasukkan jumlah Nama MK= ";
+        cout << "\nMasukkan jumlah Nama MK= ";
         cin >> namaMK;
 
     }
     void tampilMK() {
         cout << "\nJumlah SKS= " << sks;
-        out << "\nJumlah Kode MK= " kode;
-        cout << "\nJumlah Nama MK= "namaMK;
-};
+        cout << "\nJumlah Kode MK= " << kode;
+        cout << "\nJumlah Nama MK= " << namaMK;
+    }
+    };
 
-int main()
-{
-   
-}
+
+    int main()
+    {
+        Mahasiswa mhs;
+        Matakuliah mk;
+
+        cout << "Nim mahasiswa ";
+        cin >> mhs.nim;
+        cout << "Nama mahasiswa ";
+        cin >> mhs.nama;
+
+        mk.InputMK();
+        mhs.tampil() ;
+        mk.tampilMK();
+    }
 
