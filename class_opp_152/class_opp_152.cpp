@@ -26,11 +26,14 @@ public:
         cin >> namaMK;
 
     }
-
+    void tampilMK() {
+        cout << "\nJumlah SKS= " << sks;
+        out << "\nJumlah Kode MK= " kode;
+        cout << "\nJumlah Nama MK= "namaMK;
 };
 
 int main()
 {
-    std::cout << "Hello World!\n";
+   
 }
 
