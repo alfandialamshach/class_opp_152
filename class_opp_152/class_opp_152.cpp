@@ -40,13 +40,14 @@ public:
         Mahasiswa mhs;
         Matakuliah mk;
 
-        cout << "Nim mahasiswa ";
+        cout << "Nim mahasiswa = ";
         cin >> mhs.nim;
-        cout << "Nama mahasiswa ";
+        cout << "Nama mahasiswa + ";
         cin >> mhs.nama;
 
         mk.InputMK();
         mhs.tampil() ;
         mk.tampilMK();
+
     }
 
