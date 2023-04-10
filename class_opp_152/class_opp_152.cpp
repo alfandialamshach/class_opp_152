@@ -26,7 +26,7 @@ public:
         cout << "\nMasukkan jumlah Nama MK= ";
         cin >> namaMK;
 
-    }
+    } 
     void tampilMK() {
         cout << "\nJumlah SKS= " << sks;
         cout << "\nJumlah Kode MK= " << kode;
